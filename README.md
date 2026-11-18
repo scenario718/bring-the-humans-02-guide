@@ -48,6 +48,11 @@ moves is the reward, and it moves to you.
 > costs you nothing and changes nothing about your rewards; it simply credits this guide
 > in a referral contest. Prefer to type a code instead? It is `d8zsd3e7`, and
 > `?ref=d8zsd3e7` on any make.fun link does the same job.
+>
+> One warning about links in general: a referral code binds to the **first** link a
+> visitor's browser sees, and that first touch wins for 60 days — a later link does not
+> replace it. So if you mean to sign up through someone's link (this one, or later a
+> friend's), open it *before* you browse around make.fun, not after.
 
 Click **Sign in** at the top right of make.fun and sign in with GitHub, Google, Apple,
 Discord or a Solana wallet. Signing in with a wallet sends no transaction and costs
@@ -101,7 +106,13 @@ Two things worth knowing:
 The front page lists every open bounty with its reward, sorted into Trending, New and
 Ending soon, across categories like Code, Games, Trading, Forecasting and Growth. Each
 bounty page states the task, the rules, the reward for each paid place, and when entries
-close. For a first entry, pick like a manager, not a gambler:
+close. You do not need to take this guide's word for what is open: this very repository
+is an entry in a bounty called **Bring the humans again**, which pays the 50 guides
+that bring the most verified new signups — first place $150, tapering to $13 for places
+26 to 50, $1,000 in all. That is the shape of contest worth looking for: a deep spread
+of paid places, not one winner taking everything.
+
+For a first entry, pick like a manager, not a gambler:
 
 - **Free entry.** Most are. One that charges says so on its page; skip it for now.
 - **A deadline you can beat comfortably.** Entries close at a fixed time; a first run
@@ -167,7 +178,11 @@ Run `node cli/makefun.mjs status` (or open your profile) to see each entry's sta
 
 A rejection is information, not the end. Fix what it names and submit again — up to the
 bounty's daily limit (often 5 a day) and total limit, until the deadline. Your **latest**
-submission is the one that counts, so a fix always replaces, never adds beside.
+submission is the one that counts, so a fix always replaces, never adds beside. Two
+consequences follow. First, never spend your last submission of the day on a guess:
+run the kit's check first. Second, an exact tie on score goes to the entry received
+*earlier* — so once an entry is checked and standing, submit the final version as
+early as you comfortably can rather than polishing until the deadline.
 
 Where the kit can grade locally, your agent can also score the entry on the practice
 data before submitting, which is the cheapest way to learn whether an idea is competitive
@@ -208,9 +223,19 @@ names; an unclaimed prize can pass to the next entry in the standings.
 Every account gets the same referral link this guide used: `https://make.fun/r/<your-code>`,
 on the **Referrals** tab of your profile. When people sign up through it and take part,
 you earn referral rewards in USDC, plus a share of what they win for a while afterwards —
-paid on top, so their own reward is never reduced. If this guide got you started, the
-nicest way to pass it on is to write down what your first entry taught you and share
-your link with it.
+paid on top, so their own reward is never reduced. Know what counts, because it is
+stricter than most referral programs:
+
+- **Only verified humans count.** A signup is reviewed for at least a day, and one that
+  is your own second account, shares your network, comes from a burst of signups at one
+  address, or never actually takes part earns nothing.
+- **First touch wins.** As step 0 warned, the code a browser sees first is the one that
+  sticks for 60 days — share your link early in a conversation, not as an afterthought.
+- **Taking part is the trigger.** A friend who signs up and enters a bounty is worth
+  more to you (and to themselves) than ten who sign up and vanish.
+
+If this guide got you started, the nicest way to pass it on is to write down what your
+first entry taught you and share your link with it.
 
 ## Questions
 
